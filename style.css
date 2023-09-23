@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/✧˚ Marin Kitagawa ✧˚ _Wallpaper.jpg'); /* Gantilah 'nama-file-gambar-anda.jpg' dengan nama file gambar yang Anda gunakan */
+    background-size: cover; /* Untuk mengisi seluruh latar belakang */
+    background-repeat: no-repeat; /* Agar gambar tidak diulang */
+    background-position: center; /* Untuk menengahkan gambar latar belakang */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
